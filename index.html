@@ -1,149 +1,359 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>Naymish's Homepage</title>
+  <title>All News</title>
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/normalize.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Old+Standard+TT|Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="page">
+  <!-- *--------------- NAVBAR ---------------* -->
+  <div class="nav" id="top">
+    <div class="heading">
+        <h1>WELCOME TO ALL YOUR NEWS</h1>
+    </div>
+    <div class="links">
+      <ul>
+        <li><a href="#worldnews">World</a></li>
+        <li>-</li>
+        <li><a href="#sportsnews">Sports</a></li>
+        <li>-</li>
+        <li><a href="#financenews">Finance</a></li>
+        <li>-</li>
+        <li><a href="#technologynews">Technology</a></li>
+      </ul>
+    </div>
+  </div>
 
-    <div class="header">
-      <div class="navbar">
-        <div class="myname" id="myname">
-          <h1 class="name">
-            NAYMISH VAGHELA
-          </h1>
-          <div class="profilepic">
-            <img class="myheadshot" src="naymish_headshot.jpg" alt="NAYMISH VAGHELA">
-          </div>
-          <p class="quote">
-            "No problem can be solved from the same level of consciousness that created it." <br>
-            - Albert Einstein
-          </p>
-        </div>
+  <!-- *--------------- WORLD NEWS SECTION ---------------* -->
+  <div class="sectionheading">
+      <h3>TECHNOLOGY</h3>
+  </div>
+  <div class="rowwrap" id="worldnews">
+    <div class="section1" id="section1worldnews">
+      <div class="articlebox">
+        <h3>One Plus 7T Launched</h3>
+        <hr>
+        <p id="center">Here’s everything you need to know</p>
+        
+        <iframe id="i-align" src="https://www.youtube.com/embed/PXkYSNlaU7o" frameborder="0" allowfullscreen></iframe>
+
       </div>
-      <div class="navlinks">
-        <div class="navleft">
-          <a href="https://www.linkedin.com/in/naymish-vaghela-a0458a14a/" target="_blank">LINKEDIN</a>
-          <a href="https://github.com/naymo" target="_blank">GITHUB</a>
-        </div>
-        <div class="navright">
-          <a href="index.html#assignments">ASSIGNMENTS</a>
-          <a href="http://www.cs.gsu.edu/" target="_blank">CS DEPARTMENT</a>
-        </div>
+      <div class="articlebox">
+        <h3>Amazon Buds Launched</h3>
+        <hr>
+        <p>Here’s everything you need to know</p>
+        <iframe id="i-align" src="https://www.youtube.com/embed/MDN2RRaY1po" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="articlebox">
+        <h3>Amazon Echo Glasses</h3>
+        <hr>
+        <p>Here’s everything you need to know</p>
+        <iframe id="i-align" src="https://www.youtube.com/embed/hCKstxDONWI" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="articlebox">
+        <h3>Boston Dynamics Robot</h3>
+        <hr>
+        <p>Here’s everything you need to know</p>
+        <iframe id="i-align" src="https://www.youtube.com/embed/bmNaLtC6vkU" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
-
-    <div class="content">
-      <div class="professionalblock" id="professional">
-        <h3>E X P E R I E N C E</h3>
-        <h4>My Previous Work</h4>
-        <ol>
-          <li>UPS - Fullstack Developer (Spring, React.js, Java, REST)</li>
-          <li>UNIVERSITY HOUSING - Resident Assistant</li>
-          <li>DEPT OF INNOVATION INSTRUCTION & TECHNOLOGY - Technician</li>
-        </ol>
-        <h3>E D U C A T I O N</h3>
-        <h4>Computer Science Dual Degree Student</h4>
-        <ul>
-          <li>Georgia State University - Honors College</li>
-          <li>GSU - Bachelor's in Computer Science (May 2020)</li>
-          <li>GSU - Master's in Computer Science (May 2021)</li>
-        </ul>
+    <div class="section2" id="section2worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
       </div>
-      <div class="personalblock">
-        <h3>I N T E R E S T S</h3>
-        <ul class="interestList">
-          <li>Networking</li>
-          <li>Sports
-            <ul>
-              <li>Volleyball</li>
-              <li>Spikeball - <a href="https://spikeball.com/" target="_blank" class="link">https://spikeball.com/</a>
-              </li>
-              <li>Ultimate Frisbee</li>
-            </ul>
-          </li>
-          <li>Hackathons - <a href="http://hackgsu.com/" target="_blank" class="link">http://hackgsu.com/</a></li>
-        </ul>
-
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
       </div>
-      <div class="assignmentblock" id="projects">
-        <h3>P R O J E C T S</h3>
-        <div class="tablecontainer">
-          <table class="projecttable">
-            <tr>
-              <th id="tablename">Name</th>
-              <th id="tabletype">Type</th>
-              <th id="tabletechnology">Technologies</th>
-            </tr>
-            <tr>
-              <td>SavvyIndependent</td>
-              <td>Website</td>
-              <td>Frontend: HTML, CSS, PHP, Javascript; Backend: Python (ML), mySQL</td>
-            </tr>
-            <tr>
-              <td>Foodlink</td>
-              <td>WebApp</td>
-              <td>Frontend: Ruby on Rails, Heroku; Backend: mySQL</td>
-            </tr>
-            <tr>
-              <td>Assignment Tracking Application (Feranmi Timothy Akanni)</td>
-              <td>Android App</td>
-              <td>Java, JSON, PHP, mySQL, Android Studio (Gradle)</td>
-            </tr>
-            <tr>
-              <td>TCG:Lifecounter</td>
-              <td>Android App</td>
-              <td>Java, XML, Android Studio (Gradle)</td>
-            </tr>
-          </table>
-        </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
       </div>
-      <div class="assignmentblock" id="assignments">
-        <h3>A S S I G N M E N T S</h3>
-        <div class="tablecontainer">
-          <table class="projecttable">
-            <tr>
-              <th></th>
-              <th id="tablename">Name</th>
-              <th id="tabletype">Site</th>
-              <th id="tabletechnology">Date</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Homepage</td>
-              <td><a
-                  href="http://codd.cs.gsu.edu/~nvaghela1/index.html">http://codd.cs.gsu.edu/~nvaghela1/index.html</a>
-              </td>
-              <td>9/20/2019</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>CSS Movie Review</td>
-              <td>TO BE ADDED</td>
-              <td>9/25/2019</td>
-            </tr>
-            <tr>
-              <td>?</td>
-              <td>Forms Practice</td>
-              <td><a
-                  href="http://codd.cs.gsu.edu/~nvaghela1/forms_activity/forms-activity.html">http://codd.cs.gsu.edu/~nvaghela1/forms_activity/forms-activity.html</a>
-              </td>
-              <td>9/18/2019</td>
-            </tr>
-          </table>
-        </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+    </div>
+    <div class="section3" id="section3worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
       </div>
     </div>
   </div>
+
+  <!-- *--------------- SPORTS NEWS SECTION ---------------* -->
+  <div class="sectionheading">
+      <h3>Sports</h3>
+  </div>
+  <div class="rowwrap" id="sportsnews">
+    <div class="section1" id="section1worldnews">
+      <div class="articlebox">
+        <h3>Ronaldo Epic Goal</h3>
+        <hr>
+        <p>Bicycle Kich vs Juventus</p>
+        <iframe id="i-align" src="https://www.youtube.com/embed/ZC_XihZGPEg" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="articlebox">
+          <h3>Messi Impossible Goals</h3>
+          <hr>
+          <p>Messi Goals vs real madrid</p>
+          <iframe id="i-align" src="https://www.youtube.com/embed/FIDb_hKrVew" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="articlebox">
+          <h3>Robin Van Persie Goal</h3>
+          <hr>
+          <p>Winning Goal vs Spain</p>
+          <iframe id="i-align" src="https://www.youtube.com/embed/DeKSmd-hjwo" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="articlebox">
+          <h3>Fernando Torres Goal</h3>
+          <hr>
+          <p>Best Liverpool Goals</p>
+          <iframe id="i-align" src="https://www.youtube.com/embed/WX3BpfSMO7E" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="section2" id="section2worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+    </div>
+    <div class="section3" id="section3worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- *--------------- FINANCIAL NEWS SECTION ---------------* -->
+  <div class="sectionheading">
+      <h3>Finance News</h3>
+  </div>
+  <div class="rowwrap" id="financenews">
+    <div class="section1" id="section1worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+    </div>
+    <div class="section2" id="section2worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+    </div>
+    <div class="section3" id="section3worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- *--------------- TECHNOLOGY NEWS SECTION ---------------* -->
+  <div class="sectionheading">
+      <h3>World News</h3>
+  </div>
+  <div class="rowwrap" id="technologynews">
+    <div class="section1" id="section1worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+    </div>
+    <div class="section2" id="section2worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+    </div>
+    <div class="section3" id="section3worldnews">
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+      <div class="articlebox">
+        <h3>Article Header</h3>
+        <hr>
+        <p>Here is a description of the article that would go here</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="links">
+      <ul>
+        <li><a href="#worldnews">World</a></li>
+        <li>-</li>
+        <li><a href="#sportsnews">Sports</a></li>
+        <li>-</li>
+        <li><a href="#top">Back To Top</a></li>
+        <li>-</li>
+        <li><a href="#financenews">Finance</a></li>
+        <li>-</li>
+        <li><a href="#technologynews">Technology</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <a href="#top"><div class="backtotop">
+    <h4>Top</h4>
+  </div></a>
+
 </body>
 
 </html>
